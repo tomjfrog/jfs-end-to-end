@@ -1,0 +1,8 @@
+version: 1
+type: npm
+resolver:
+    repo: jfse2e-npm
+    serverId: tomjfrog
+deployer:
+    repo: jfse2e-npm
+    serverId: tomjfrog
