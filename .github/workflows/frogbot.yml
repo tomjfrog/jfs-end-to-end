@@ -6,9 +6,12 @@ on:
     paths:
       # run only if any .js under src/api/ changes:
       - 'sample-app/**/*'
-#   push: # Triggers scan-repo flow for every push to the specified branches
-#     branches:
-#       - main
+  push: # Triggers scan-repo flow for every push to the specified branches
+    branches:
+      - main
+    paths:
+      # run only if any .js under src/api/ changes:
+      - 'sample-app/**/*'
   schedule:
     - cron: "0 0 * * *"   # The repository will be scanned once a day at 00:00 GMT.
   workflow_dispatch: # The repository will be scanned on demand
