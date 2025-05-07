@@ -1,0 +1,9 @@
+- params:
+    git:
+      repoName: jfs-end-to-end
+      branches:
+        - main
+    scan:
+      projects:
+        - workingDirs:
+            - sample-app
