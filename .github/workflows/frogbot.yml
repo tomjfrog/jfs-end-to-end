@@ -41,7 +41,6 @@ jobs:
           JF_URL: ${{ secrets.JF_URL }}
           JF_GIT_TOKEN: ${{ secrets.JF_GIT_TOKEN }}
           JF_GIT_BASE_BRANCH: ${{ matrix.branch }}    # For repository scan action
-          JF_PROJECT: jfse2e
           JF_INCLUDE_ALL_VULNERABILITIES: true
           JFROG_CLI_LOG_LEVEL: DEBUG
 
